@@ -1,0 +1,106 @@
+﻿/*===== LOADING ==== */
+.overlayLoading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+.modalLoading {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e2e3e5;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11; /* 1px higher than the overlay layer */
+}
+
+/*===== CONFIG DE FORMS ====== */
+form label {
+    font-weight: 400;
+    font-size: 11px;
+}
+.form-control:focus {
+    color: #4F5467;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25) !important;
+}
+.btn-link {
+    color: #4285f4;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #e4e6e7;
+}
+/*===== FIM CONFIG DE FORMS ====== */
+
+/*===== PERSONALIZAÇÃO MDAL  ====== */
+.modal-footer {
+    background-color: #eef4fa;
+}
+
+/*===== CONFIG DE BOTÃO DESABILITADO ====== */
+.aspNetDisabled {
+    cursor: not-allowed;
+    color: #eef4fa8f !important;
+}
+
+a.btn.disabled, fieldset:disabled a.btn {
+    cursor: not-allowed !important;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+/*===== CONFIG DA LIB-VIACEP ====== */
+.viacep-cep{}
+.viacep-logradouro{}
+.viacep-numero{}
+.viacep-municipio {}
+.viacep-municipio {}
+.viacep-bairro{}
+.viacep-estado{}
+.viacep-codigoIbge{}
+
+/* Personalizações
+-------------------------------------------------- */
+.legend-border-bottom {
+    border-bottom: 1px solid #bcbcbc;
+}
+
+form label {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+b {
+    font-weight: 500;
+}
+
+fieldset.box-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.box-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width: auto;
+    padding: 0 10px;
+    border-bottom: none;
+}
